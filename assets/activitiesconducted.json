@@ -1,0 +1,47 @@
+{
+  "data": {
+    "getUserForm": {
+      "id": 18,
+      "name": "activities conducted today",
+      "formUuid": "d6900908-3fac-4561-874e-2a1dad243c8b",
+      "isEditable": true,
+      "parentFormUuid": null,
+      "questions": [
+        {
+          "id": 91,
+          "question": "type of activity conducted",
+          "questionType": "RADIO",
+          "answerType": "TEXT",
+          "hintText": "",
+          "maxLines": 5,
+          "isEnabled": true,
+          "isMandatoryField": true,
+          "referenseFormId": null,
+          "reValidation": null,
+          "reValidationText": null,
+          "options": [
+            {"id": 1, "option": "product demos"},
+            {"id": 2, "option": "stall campaign"},
+            {"id": 3, "option": "farmer meeting"},
+            {"id": 4, "option": "group farmer meeting"},
+            {"id": 5, "option": "village event"},
+            {"id": 6, "option": "others"}
+          ]
+        },
+        {
+          "id": 90,
+          "question": "remarks",
+          "questionType": "TEXTFORMFIELD",
+          "answerType": "TEXT",
+          "hintText": "type something...",
+          "maxLines": 5,
+          "isEnabled": true,
+          "isMandatoryField": true,
+          "referenseFormId": null,
+          "reValidation": null,
+          "reValidationText": null
+        }
+      ]
+    }
+  }
+}
